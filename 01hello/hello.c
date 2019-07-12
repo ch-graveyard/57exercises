@@ -1,7 +1,7 @@
 /* Problem 01: Saying Hello */
 
 #include <stdio.h>
-#include <string.h>
+#include <simpleinput.h>
 
 #define BUF_SIZE 1024
 
@@ -12,10 +12,7 @@ int main()
 
     // get user input
     printf("What is your name? ");
-    fgets(name, BUF_SIZE, stdin);
-
-    // strip newline
-    name[strcspn(name, "\n")] = 0;
+    input(name, BUF_SIZE);
 
     // say hello
     printf("Hello, %s, nice to meet you!\n", name);
