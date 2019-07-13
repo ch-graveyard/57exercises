@@ -16,3 +16,7 @@ clean:
 03printquote: 03printquote/build/printquote
 03printquote/build/printquote: 03printquote/printquote.c
 	$(CC) $(CFLAGS) $< -o $@
+
+04madlib: 04madlib/build/madlib
+04madlib/build/madlib: 04madlib/madlib.c
+	$(CC) $(CFLAGS) $< -o $@
