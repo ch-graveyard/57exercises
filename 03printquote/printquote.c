@@ -1,7 +1,7 @@
 /* Problem 03: Printing Quotes */
 
 #include <stdio.h>
-#include <simpleinput.h>
+#include <inputfunctions.h>
 
 #define BUF_SIZE 1024
 
@@ -12,9 +12,9 @@ int main()
 
     // get input
     printf("What is the quote? ");
-    input(quote, BUF_SIZE);
+    simpleinput(quote, BUF_SIZE);
     printf("Who said it? ");
-    input(author, BUF_SIZE);
+    simpleinput(author, BUF_SIZE);
 
     // concatenate strings for output
     char output[BUF_SIZE];

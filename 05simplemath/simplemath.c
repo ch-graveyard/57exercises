@@ -1,7 +1,7 @@
 /* Problem 05: Simple Math */
 
 #include <stdio.h>
-#include <simpleinput.h>
+#include <inputfunctions.h>
 
 #define BUF_SIZE 1024
 

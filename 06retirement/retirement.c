@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <time.h>
-#include <simpleinput.h>
+#include <inputfunctions.h>
 
 #define BUF_SIZE 1024
 

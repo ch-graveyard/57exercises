@@ -1,7 +1,7 @@
 /* Problem 02: Counting the Number of Characters */
 
 #include <stdio.h>
-#include <simpleinput.h>
+#include <inputfunctions.h>
 
 #define BUF_SIZE 1024
 
@@ -12,7 +12,7 @@ int main()
 
     // get user input
     printf("What is the input string? ");
-    input(buffer, BUF_SIZE);
+    simpleinput(buffer, BUF_SIZE);
 
     // calculate and print number of characters
     printf("%s has %d characters.\n",

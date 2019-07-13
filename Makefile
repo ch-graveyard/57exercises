@@ -1,4 +1,4 @@
-CFLAGS=-g -Wall -O3 -I.
+CFLAGS=-g -Wall -O3 -Icommonheaders
 LDLIBS=
 CC=c99
 
