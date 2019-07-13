@@ -24,3 +24,7 @@ clean:
 05simplemath: 05simplemath/build/simplemath
 05simplemath/build/simplemath: 05simplemath/simplemath.c
 	$(CC) $(CFLAGS) $< -o $@
+
+06retirement: 06retirement/build/retirement
+06retirement/build/retirement: 06retirement/retirement.c
+	$(CC) $(CFLAGS) $< -o $@
