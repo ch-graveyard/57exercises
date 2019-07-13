@@ -20,3 +20,7 @@ clean:
 04madlib: 04madlib/build/madlib
 04madlib/build/madlib: 04madlib/madlib.c
 	$(CC) $(CFLAGS) $< -o $@
+
+05simplemath: 05simplemath/build/simplemath
+05simplemath/build/simplemath: 05simplemath/simplemath.c
+	$(CC) $(CFLAGS) $< -o $@
