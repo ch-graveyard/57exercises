@@ -11,7 +11,11 @@
 // Stores the input in the given buffer
 void simpleinput(char* buffer, int buf_size)
 {
-    fgets(buffer, buf_size, stdin);
+    if (fgets(buffer, buf_size, stdin) == NULL)
+    {
+        printf("Error getting input, aborting.\n");
+        exit(-1);
+    }
     buffer[strcspn(buffer, "\r\n")] = 0;
 }
 
