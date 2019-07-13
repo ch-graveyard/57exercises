@@ -12,3 +12,7 @@ clean:
 02countchar: 02countchar/build/countchar
 02countchar/build/countchar: 02countchar/countchar.c
 	$(CC) $(CFLAGS) $< -o $@
+
+03printquote: 03printquote/build/printquote
+03printquote/build/printquote: 03printquote/printquote.c
+	$(CC) $(CFLAGS) $< -o $@
