@@ -4,8 +4,6 @@
 #include <time.h>
 #include <inputfunctions.h>
 
-#define BUF_SIZE 1024
-
 int main()
 {
     // get current year

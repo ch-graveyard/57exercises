@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <inputfunctions.h>
 
-#define BUF_SIZE 1024
-
 int main()
 {
     // input numbers
