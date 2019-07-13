@@ -19,9 +19,9 @@ int main()
 
     // get user input
     printf("What is your current age? ");
-    scanf("%d", &current_age);
+    simplescanf("%d", &current_age);
     printf("At what age would you like to retire? ");
-    scanf("%d", &retirement_age);
+    simplescanf("%d", &retirement_age);
 
     // calculate time till retirement
     int years_till_retirement = retirement_age - current_age;

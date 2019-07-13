@@ -12,17 +12,9 @@ int main()
 
     // get inputs
     printf("What is the first number? ");
-    if (scanf("%lf", &a) != 1)
-    {
-        printf("Malformed input, aborting.\n");
-        return -1;
-    }
+    simplescanf("%lf", &a);
     printf("What is the second number? ");
-    if (scanf("%lf", &b) != 1)
-    {
-        printf("Malformed input, aborting.\n");
-        return -1;
-    }
+    simplescanf("%lf", &b);
 
     // print outputs
     printf("%d + %d = %d\n", (int)a, (int)b, (int)(a + b));

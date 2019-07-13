@@ -4,6 +4,7 @@
 #define __INPUTFUNCTIONS_H_INCLUDED__
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 // Gets input using fgets and strips newline
@@ -12,6 +13,17 @@ void simpleinput(char* buffer, int buf_size)
 {
     fgets(buffer, buf_size, stdin);
     buffer[strcspn(buffer, "\r\n")] = 0;
+}
+
+// Wrapper around scanf that handles malformed input
+// Only works for single variable scanf
+void simplescanf(char* format, void* ptr)
+{
+    if (scanf(format, ptr) != 1)
+    {
+        printf("Malformed input, aborting.\n");
+        exit(-1);
+    }
 }
 
 #endif
