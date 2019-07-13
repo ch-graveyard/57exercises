@@ -28,3 +28,7 @@ clean:
 06retirement: 06retirement/build/retirement
 06retirement/build/retirement: 06retirement/retirement.c
 	$(CC) $(CFLAGS) $< -o $@
+
+07rectroomarea: 07rectroomarea/build/rectroomarea
+07rectroomarea/build/rectroomarea: 07rectroomarea/rectroomarea.c
+	$(CC) $(CFLAGS) $< -o $@
