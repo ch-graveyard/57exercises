@@ -3,3 +3,6 @@
 
 # ignore builds
 */build/*
+
+# ignore VS code internal files
+.vscode/*
