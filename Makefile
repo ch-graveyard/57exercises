@@ -48,3 +48,7 @@ clean:
 11currency: 11currency/build/currency
 11currency/build/currency: 11currency/currency.c
 	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
+
+12simpleinterest: 12simpleinterest/build/simpleinterest
+12simpleinterest/build/simpleinterest: 12simpleinterest/simpleinterest.c
+	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
