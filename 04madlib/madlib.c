@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <inputfunctions.h>
 
-#define BUF_SIZE 1024
+static const int BUF_SIZE = 1024;
 
 int main()
 {

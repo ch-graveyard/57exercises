@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <inputfunctions.h>
 
-#define SQ_FEET_TO_SQ_METRES 0.09290304
+static const double SQ_FEET_TO_SQ_METRES = 0.09290304;
 
 int main()
 {
