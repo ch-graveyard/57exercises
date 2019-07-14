@@ -20,4 +20,4 @@ echo \/\* Problem $1: $3 \*\/ > $1$2/$2.c
 echo "" >> Makefile
 echo $1$2: $1$2/build/$2 >> Makefile
 echo $1$2/build/$2: $1$2/$2.c >> Makefile
-echo "	\$(CC) \$(CFLAGS) \$< -o \$@" >> Makefile
+echo "	\$(CC) \$(CFLAGS) \$< -o \$@ \$(LDLIBS)" >> Makefile
