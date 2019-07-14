@@ -44,3 +44,7 @@ clean:
 10selfcheckout: 10selfcheckout/build/selfcheckout
 10selfcheckout/build/selfcheckout: 10selfcheckout/selfcheckout.c
 	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
+
+11currency: 11currency/build/currency
+11currency/build/currency: 11currency/currency.c
+	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
