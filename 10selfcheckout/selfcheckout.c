@@ -3,13 +3,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <inputfunctions.h>
+#include <cents.h>
 
 static const double TAX_RATE = 0.055;
-
-inline double cents_to_dollars(unsigned int cents)
-{
-    return (double) cents / 100.0;
-}
 
 int main()
 {
@@ -33,7 +29,7 @@ int main()
         simplescanf("%u", &quantity);
 
         // add to subtotal
-        subtotal_cents += (unsigned int) (price * quantity * 100);
+        subtotal_cents += dollars_to_cents_ceil(price * quantity);
     }
 
     // calculate tax
