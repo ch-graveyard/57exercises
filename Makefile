@@ -36,3 +36,7 @@ clean:
 08pizzaparty: 08pizzaparty/build/pizzaparty
 08pizzaparty/build/pizzaparty: 08pizzaparty/pizzaparty.c
 	$(CC) $(CFLAGS) $< -o $@
+
+09paintcalculator: 09paintcalculator/build/paintcalculator
+09paintcalculator/build/paintcalculator: 09paintcalculator/paintcalculator.c
+	$(CC) $(CFLAGS) $< -o $@
