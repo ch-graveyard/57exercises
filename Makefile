@@ -32,3 +32,7 @@ clean:
 07rectroomarea: 07rectroomarea/build/rectroomarea
 07rectroomarea/build/rectroomarea: 07rectroomarea/rectroomarea.c
 	$(CC) $(CFLAGS) $< -o $@
+
+08pizzaparty: 08pizzaparty/build/pizzaparty
+08pizzaparty/build/pizzaparty: 08pizzaparty/pizzaparty.c
+	$(CC) $(CFLAGS) $< -o $@
