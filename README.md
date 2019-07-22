@@ -1,5 +1,19 @@
 # Chua Hou's solutions to *Exercises for Programmers* by Brain P. Hogan
 
+## Abandonment note, 22 July 2019
+
+As I progressed up to the 14th problem, I looked through the rest of the
+problems and realised they were painfully trivial (that is, not worth the time
+and effort to implement).
+
+Hence, as of **22 July 2019**, I am **abandoning this child**. (sniffle sniffle)
+
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
+
+Okay bye.
+
+## Old readme
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/does-not-contain-msg.svg)](https://forthebadge.com)
 
