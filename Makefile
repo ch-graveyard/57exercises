@@ -52,3 +52,11 @@ clean:
 12simpleinterest: 12simpleinterest/build/simpleinterest
 12simpleinterest/build/simpleinterest: 12simpleinterest/simpleinterest.c
 	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
+
+13compoundinterest: 13compoundinterest/build/compoundinterest
+13compoundinterest/build/compoundinterest: 13compoundinterest/compoundinterest.c
+	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
+
+14taxcalculator: 14taxcalculator/build/taxcalculator
+14taxcalculator/build/taxcalculator: 14taxcalculator/taxcalculator.c
+	$(CC) $(CFLAGS) $< -o $@ $(LDLIBS)
