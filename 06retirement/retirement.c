@@ -9,7 +9,9 @@ int main()
     // get current year
     time_t timer;
     time(&timer);
-    int current_year = localtime(&timer)->tm_year + 1900;
+    struct tm result;
+    localtime_r(&timer, &result);
+    int current_year = result.tm_year + 1900;
 
     // user input variables
     int current_age;
