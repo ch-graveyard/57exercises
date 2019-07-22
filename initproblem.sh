@@ -21,3 +21,6 @@ echo "" >> Makefile
 echo $1$2: $1$2/build/$2 >> Makefile
 echo $1$2/build/$2: $1$2/$2.c >> Makefile
 echo "	\$(CC) \$(CFLAGS) \$< -o \$@ \$(LDLIBS)" >> Makefile
+
+# Add build target to lgtm.yml
+echo -n " $1$2" >> lgtm.yml
