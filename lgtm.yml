@@ -5,4 +5,4 @@ extraction:
         - ./makebuilddirs.sh
     index:
       build_command:
-        - make 01hello 02countchar 03printquote 04madlib 05simplemath 06retirement 07rectroomarea 08pizzaparty 09paintcalculator 10selfcheckout 11currency 12simpleinterest
+        - make 01hello 02countchar 03printquote 04madlib 05simplemath 06retirement 07rectroomarea 08pizzaparty 09paintcalculator 10selfcheckout 11currency 12simpleinterest 13compoundinterest
